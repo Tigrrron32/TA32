@@ -17,6 +17,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  */
 @SpringBootTest
 public class Lab2Tests {
+    
     @Autowired
     EquationSample equationSample;
 
