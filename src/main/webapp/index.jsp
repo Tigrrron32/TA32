@@ -14,6 +14,7 @@
     <body>
         <h1>My TA labs!</h1>
         <p>created by Julia Lehoida IP-12</p>
+        
 
         <form action="lab1.jsp">
             
