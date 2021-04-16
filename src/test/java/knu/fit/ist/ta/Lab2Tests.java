@@ -5,7 +5,7 @@
  */
 package knu.fit.ist.ta;
 
-import knu.fit.ist.ta.lab2.EquationSample;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +17,9 @@ import org.springframework.boot.test.context.SpringBootTest;
  */
 @SpringBootTest
 public class Lab2Tests {
+    
+    //lab3 change
+    //deploy changed
     
     @Autowired
     EquationSample equationSample;
