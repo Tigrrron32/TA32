@@ -20,9 +20,10 @@
             
             <input type="submit" value="Laboratory work 1">
 
-        </form> 
-        <p>  </p>
  
+        </form> 
+        <p> </p>
+        
         <form action="lab2form.jsp">
             
             <input type="submit" value="Laboratory work 2">
