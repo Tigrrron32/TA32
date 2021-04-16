@@ -72,7 +72,7 @@ public class Lab3Servlet extends HttpServlet {
         int[] x = tfl3.task(arlng, armax);
 
         String output2 = tfl3.output2(x);
-        String output = tfl3.output(x, armax);
+        int output = tfl3.output(x, armax);
 
         request.setAttribute("output", output);
         request.setAttribute("output2", output2);
