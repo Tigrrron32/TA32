@@ -49,7 +49,7 @@
 <hr noshade size="2" width="100%">
 
 <form action="../index.jsp" align="center">
-    <input type="submit" value="Home">
+  <a href="index.jsp">Home</a>
 </form>
     </body>
 </html>
