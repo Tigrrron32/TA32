@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>It's my laboratory work №2!</h1>
+        <h2>d/(ax2+bx+c)</h2>
         <h3> Results: </h3>
         <p> <%=request.getAttribute("result")%> </p>
 
