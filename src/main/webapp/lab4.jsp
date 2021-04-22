@@ -48,7 +48,7 @@
 <p align="center">Most common 3-letter sequences: <%= processor.getThreeLetterSeqs() %></p>
 <hr noshade size="2" width="100%">
 
-<form action="../index.jsp" align="center">
+<form action="index.jsp" align="center">
   <a href="index.jsp">Home</a>
 </form>
     </body>
