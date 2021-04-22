@@ -34,6 +34,11 @@
             
             <input type="submit" value="Laboratory work 3">
         </form> 
+        <p> </p>
+        <form action="lab4.jsp">
+            
+            <input type="submit" value="Laboratory work 4">
+        </form> 
         
     </body>
 </html>

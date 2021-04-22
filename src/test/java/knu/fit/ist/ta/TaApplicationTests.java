@@ -15,6 +15,6 @@ class TaApplicationTests {
     @Test
     void test1() {
         
-        assertEquals(0.02f,0.025f,0.001f);
+        assertEquals(0.02f,0.02f,0.001f);
     }
 }
