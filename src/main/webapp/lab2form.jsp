@@ -15,8 +15,11 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <h1>a=7</h1>
+        <h1>b=-5</h1>
+        <h1>c=-9</h1>
+        <h1>d=8</h1>
         <h1>Insert your X!</h1>
-        
         <div>
         <form action="./lab2" method="post">
             
