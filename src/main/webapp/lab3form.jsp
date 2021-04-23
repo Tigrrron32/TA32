@@ -12,12 +12,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Insert your X!</h1>
+        <h1>Insert X below!</h1>
         
         <div>
         <form action="./lab3" method="post">
             
-            <input type="text" name="x" placeholder="enter max number"/>
+            <input type="text" name="x" placeholder="enter 20"/>
             <input type="submit" value="OK"/>
         </form> 
         </div>
