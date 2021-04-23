@@ -30,7 +30,7 @@ Random rand = new Random();
 
     
     
-    public String output(int[] array, int arrayMax){
+    public static int output(int[] array, int arrayMax){
 
         int k = 0;
 
@@ -42,7 +42,7 @@ Random rand = new Random();
             }
         }
 
-        return "" + k;
+        return  + k;
 
     }
 

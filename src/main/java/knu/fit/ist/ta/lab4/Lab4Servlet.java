@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package knu.fit.ist.ta.lab3;
+package knu.fit.ist.ta.lab4;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author skinf
  */
-@WebServlet(name = "Lab3Servlet", urlPatterns = {"/lab3"})
-public class Lab3Servlet extends HttpServlet {
+@WebServlet(name = "Lab4Servlet", urlPatterns = {"/Lab4Servlet"})
+public class Lab4Servlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -34,7 +34,15 @@ public class Lab3Servlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Servlet Lab4Servlet</title>");            
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Servlet Lab4Servlet at " + request.getContextPath() + "</h1>");
+            out.println("</body>");
+            out.println("</html>");
         }
     }
 
@@ -49,7 +57,8 @@ public class Lab3Servlet extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {      
+            throws ServletException, IOException {
+        processRequest(request, response);
     }
 
     /**
@@ -63,21 +72,7 @@ public class Lab3Servlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-        lab3Task1 tfl3 = new lab3Task1();
-
-        int arlng = 100;
-        int armax = Integer.parseInt(request.getParameter("x"));
-
-        int[] x = tfl3.task(arlng, armax);
-
-        String output2 = tfl3.output2(x);
-        int output = tfl3.output(x, armax);
-
-        request.setAttribute("output", output);
-        request.setAttribute("output2", output2);
-        request.getRequestDispatcher("lab3.jsp").forward(request,response);
-
+        processRequest(request, response);
     }
 
     /**

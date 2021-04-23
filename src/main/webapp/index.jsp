@@ -14,10 +14,13 @@
     <body>
         <h1>My TA labs!</h1>
         <p>created by Julia Lehoida IP-12</p>
+        
 
         <form action="lab1.jsp">
             
             <input type="submit" value="Laboratory work 1">
+
+ 
         </form> 
         <p> </p>
         
@@ -30,6 +33,11 @@
         <form action="lab3form.jsp">
             
             <input type="submit" value="Laboratory work 3">
+        </form> 
+        <p> </p>
+        <form action="lab4.jsp">
+            
+            <input type="submit" value="Laboratory work 4">
         </form> 
         
     </body>

@@ -1,8 +1,11 @@
+
 <%-- 
     Document   : lab2form
-    Created on : 12.04.2021, 19:31:53
+
+    Created on : 12.04.2021, 17:32:12
     Author     : skinf
 --%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

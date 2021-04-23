@@ -1,9 +1,10 @@
 <%-- 
     Document   : lab2
-    Created on : 12.04.2021, 19:30:49
+    Created on : 12.04.2021, 17:29:15
     Author     : skinf
 --%>
 
+        
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -26,5 +27,6 @@
         
         
         
+
     </body>
 </html>

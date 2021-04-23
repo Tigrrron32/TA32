@@ -17,7 +17,7 @@
         <div>
         <form action="./lab3" method="post">
             
-            <input type="text" name="x" placeholder="enter 20"/>
+            <input type="text" name="x" placeholder="enter max number"/>
             <input type="submit" value="OK"/>
         </form> 
         </div>
