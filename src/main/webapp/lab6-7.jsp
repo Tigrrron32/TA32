@@ -3,7 +3,7 @@
     Created on : 21.05.2021, 13:01:39
     Author     : skinf
 --%>
-
+<%@page import="knu.fit.ist.ta.lab6.Recursion"%>
 <%@page import="java.util.Arrays"%>
 <%@page import="knu.fit.ist.ta.lab7.Tree"%>
 <%@page import="java.util.Collections"%>
@@ -16,11 +16,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>lab 6-7</title>
     </head>
-    <body>
-        <h1>lab 6 is not ready </h1>
-        
-        <h3> Лабораторна робота 7: Tree</h3>
+    
+        <h3> Лабораторна робота 6: Рекурсія </h3>
+<p>Випадковий масив:  <%= request.getAttribute("res_arr") %></p>
+<p> Кількість елементів, які менші заданого числа : <%= request.getAttribute("res_tail") %></p>
+<p> Рекурсія: <%= request.getAttribute("res_recursion") %></p>
+<p> Ітерація: <%= request.getAttribute("res_iter") %></p>
 
+
+
+        <h3> Лабораторна робота 7: Tree</h3>
 <%
     List<Integer> arr = Arrays.asList(9, 2, 8, 4, 10, 11, 7, 5);
     Collections.sort(arr);
@@ -33,5 +38,5 @@
 <form action="../index.jsp" align="center">
     <input type="submit" value="Home">
 </form>
-    </body>
+    
 </html>
